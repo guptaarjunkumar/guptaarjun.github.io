@@ -1,0 +1,61 @@
+body{
+	text-align:center;
+}
+#box{
+	border:1px solid blue;
+	background:-webkit-radial-gradient(center,circle,red 0%,blue 75%); 
+	color:black;
+	width:500px;
+	display:block;
+	margin:50px auto;
+	text-align:center;
+	padding:15px;
+	-webkit-border-radius:25px;
+	-webkit-box-shadow:rgba(110,110,110,0.6) 18px 18px 8px ;
+}
+#text{
+	font:bold 30px Century Gothic;
+	text-shadow:rgb(110,110,110)10px 10px 10px;
+}
+#Texta{
+	font:bold 30px Century Gothic;
+}
+#Boxa{
+	border:7px solid blue;
+	background-color:yellow;
+	display:block;
+	padding:5px;
+	margin:20px auto;
+	text-align:center;
+	width:400px;
+	-webkit-transition:-webkit-transform 1s;
+}
+#Boxa:hover{
+	-webkit-transform:rotate(180deg);
+
+	
+}
+#Textab{
+	font:bold 30px Century Gothic;
+}
+#Boxab{
+	margin:150px auto;
+	background:red;
+	color:#ffffff;
+	width:120px;
+	height:75px;
+	-webkit-border-radius:10px;
+	opacity:0.6;
+	-webkit-transition:-webkit-transform 2s, opacity 2s,
+	background 2s, width 2s, height 2s;
+	
+}
+#Boxab:hover{
+	-webkit-transform: rotate(360deg);
+	opacity:1;
+	background:#1ec7e6;
+	width:500px;
+	height:120px;
+	
+}
+
